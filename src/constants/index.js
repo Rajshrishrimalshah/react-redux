@@ -1,0 +1,15 @@
+const INCREMENT = 'INCREMENT';
+const DECREMENT = 'DECREMENT';
+const RESET = 'RESET';
+
+const ADD_USER = 'ADD_USER';
+const REMOVE_USER = 'REMOVE_USER';
+
+
+export {
+  RESET,
+  DECREMENT,
+  INCREMENT,
+  REMOVE_USER,
+  ADD_USER
+}
