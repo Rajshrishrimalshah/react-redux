@@ -1,0 +1,17 @@
+import { BUY_PIZZA } from './pizzaTypes';
+
+const initialState = {
+  numOfPizza: 20
+}
+const pizzaReducer = (state = initialState, action) => {
+switch(action.type) {
+  case BUY_PIZZA: return {
+    ...state,
+    numOfPizza: state.numOfPizza - 1
+  }
+
+  default: return state
+}
+}
+
+export default pizzaReducer;
